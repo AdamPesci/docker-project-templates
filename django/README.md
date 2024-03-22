@@ -1,6 +1,6 @@
 # YourDjangoProject using Django with Postgres, Celery, RabbitMQ, Gunicorn, & Nginx
 
-!Remember to replace all instances of *YourDjangoProject* with your project name!
+## Remember to replace all instances of *YourDjangoProject* with your project name!
 
 ### Development
 

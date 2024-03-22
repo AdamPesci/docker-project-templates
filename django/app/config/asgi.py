@@ -1,5 +1,5 @@
 """
-ASGI config for BetterEDI project.
+ASGI config for YourDjangoProject project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

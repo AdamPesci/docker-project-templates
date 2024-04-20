@@ -47,7 +47,7 @@ services:
   celery:
     build: ./app 
     restart: always
-    command: celery -A YourDjangoProject worker -l INFO 
+    command: celery -A config worker -l INFO
     volumes:
       - ./app/:/usr/src/app/
     env_file:

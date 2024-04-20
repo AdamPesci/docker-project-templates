@@ -145,6 +145,9 @@ if DEBUG:
     INTERNAL_IPS = [
         ip[: ip.rfind(".")] + ".1" for ip in ips] + ["127.0.0.1", "10.0.2.2"]
 
+    # Hack to make debug toolbar show when using docker: https://github.com/jazzband/django-debug-toolbar/issues/1854
+    # INTERNAL_IPS = type("c", (), {"__contains__": lambda *a: True})()
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field

@@ -11,7 +11,7 @@ then
     echo "PostgreSQL started"
 fi
 
-python manage.py flush --no-input
+python manage.py flush --no-input # comment this line out if you dont want to flush the db every time you start container
 python manage.py migrate
 
 exec "$@"
